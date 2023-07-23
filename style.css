@@ -1,0 +1,293 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(Montaners.otf);
+}
+
+@font-face {
+    font-family: textfont;
+    src: url(textstyle.ttf);
+}
+
+@font-face {
+    font-family: subtext;
+    src: url(sub-heading.ttf);
+}
+
+h2{
+    font-family: subtext;
+}
+
+p,li{
+    font-family: textfont;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust the height as needed */
+    color: #fff;
+    text-align: center;
+    position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+font-family: font1;
+font-size: 60px;
+    
+}
+
+nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #0c0b0b;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid #0e0d0d;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+/* styles.css */
+body {
+    /* ... (existing styles) */
+    scroll-behavior: smooth;
+}
+
+h1 {
+    /* ... (existing styles) */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a {
+    /* ... (existing styles) */
+    font-weight: bold;
+}
+
+nav a:hover {
+    /* ... (existing styles) */
+    background-color: #fff;
+    color: #2196F3; /* Change the hover color to your preference */
+    transform: scale(1.1); /* Add a scaling effect on hover */
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    background-color: #2196F3; /* Change the color to your preference */
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+}
+
+.scroll-to-top:hover {
+    background-color: #0d8bff; /* Change the hover color to your preference */
+}
+
+/* Show the scroll-to-top button when the user scrolls down */
+body {
+    scroll-behavior: smooth;
+}
+/* styles.css */
+/* ... (existing styles) */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #ebd6d6; /* Adjust the background color to your preference */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+    color: #2196F3; /* Adjust the heading color to your preference */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333; /* Adjust the link color to your preference */
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #4786b9; /* Change the hover color to your preference */
+    color: #fff;
+}
+/* styles.css */
+.sidebar {
+    /* ... (existing styles) */
+    background: linear-gradient(to right, #f9f9f9, #f0f0f0); /* Adjust the gradient colors to your preference */
+}
+/* styles.css */
+main {
+    /* ... (existing styles) */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Hide any overflowing content to keep the border consistent */
+}
+/* styles.css */
+.sidebar {
+    /* ... (existing styles) */
+    position: sticky;
+    top: 50px; /* Adjust the top position to your preference */
+}
+/* styles.css */
+header {
+    /* ... (existing styles) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    /* ... (existing styles) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* styles.css */
+.sidebar a {
+    /* ... (existing styles) */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    /* ... (existing styles) */
+    background-color: #437caa;
+    color: #fff;
+}
+/* styles.css */
+main {
+    /* ... (existing styles) */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.sidebar {
+    /* ... (existing styles) */
+    padding: 20px;
+}
+
+.content {
+    /* ... (existing styles) */
+    flex: 1;
+    margin-right: 20px;
+}
+/* styles.css */
+/* ... (existing styles) */
+/* styles.css */
+/* ... (existing styles) */
+footer {
+    background-color: #f0f0f0; /* Adjust the background color to your preference */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.members {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.members p {
+    font-weight: bold;
+}
+
+.members ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+
+.members li {
+    margin: 5px;
+    padding-right: 15px;
+}
+
+.college-link {
+    font-size: 12px;
+}
+
+.college-link a {
+    text-decoration: none;
+    color: #2196F3; /* Adjust the link color to your preference */
+}
+
+.college-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
